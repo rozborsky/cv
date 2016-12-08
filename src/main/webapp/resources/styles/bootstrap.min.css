@@ -12,6 +12,11 @@ td{
     vertical-align: top;
 }
 
+.usedTechnology{
+    color: white;
+    background: linear-gradient(to right, #140D00, #654400, #140D00);
+}
+
 span{
     font-weight: bolder;
 }

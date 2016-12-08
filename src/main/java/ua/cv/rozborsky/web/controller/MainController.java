@@ -16,10 +16,4 @@ public class MainController {
 
         return "index";
     }
-
-    @RequestMapping(value = "/seaBattle", method = RequestMethod.GET)
-    public String seaBattle() {
-
-        return "seaBattle";
-    }
 }

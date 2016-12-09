@@ -27,7 +27,7 @@ public class DAOImpl implements DAO {
             session.save(equation);
             session.getTransaction().commit();
         } catch (Exception e) {
-            e.printStackTrace();
+            session.getTransaction().rollback();
         } finally {
             if ((session != null) && (session.isOpen()))session.close();
         }

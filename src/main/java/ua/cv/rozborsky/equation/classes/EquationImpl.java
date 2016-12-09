@@ -114,8 +114,10 @@ public class EquationImpl implements Equation {
     @Override
     public void calculateX() {
         x1 = ((-1) * b + Math.sqrt(d)) / (2 * a);
-        if(d >= 0) {
+        if(d > 0) {
             x2 = ((-1) * b - Math.sqrt(d)) / (2 * a);
+        } else if(d == 0) {
+            x2 = x1;
         }
     }
 

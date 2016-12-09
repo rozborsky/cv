@@ -9,4 +9,4 @@
     </head>
     <body>
         <div class="container  border-container">
-            <jsp:include page="navigation.jsp" />
+            <jsp:include page="navigation.jsp"/>

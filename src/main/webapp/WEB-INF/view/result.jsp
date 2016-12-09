@@ -3,5 +3,5 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 
 <jsp:include page="header.jsp" />
-	${result}
+	<h1>${result}</h1>
 <jsp:include page="footer.jsp" />

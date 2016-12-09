@@ -5,42 +5,37 @@
 
 <jsp:include page="header.jsp" />
 
-<h1>equation</h1>
+<div class="col-md-10 col-md-offset-1">
+    <h1 class="equation">a * x<sup>2</sup> + b * y + c = 0</h1>
 
-<form:form action="solveTheEquation" method="post" commandName="getValues">
-    <table border="0">
-        <tr>
-            <td>a</td>
-            <td>b</td>
-            <td>c</td>
-        </tr>
-        <tr>
-            <td><form:input path="a" value="0"/></td>
-            <td><form:input path="b" value="0"/></td>
-            <td><form:input path="c" value="0"/></td>
-        </tr>
-        <tr>
-            <td><form:errors path="a"/></td>
-            <td><form:errors path="b"/></td>
-            <td><form:errors path="c"/></td>
-        </tr>
-        <tr>
-            <td colspan="3" align="center"><input type="submit" value="calculate" /></td>
-        </tr>
-    </table>
-</form:form>
+    <form:form action="solveTheEquation" method="post" commandName="getValues" class="form-inline">
+      <div class="form-group">
+        <label for="a">a</label>
+        <form:input path="a" class="form-control" id="b"/>
+      </div>
+      <div class="form-group">
+        <label for="b">b</label>
+        <form:input path="b" class="form-control" id="b"/>
+      </div>
+      <div class="form-group">
+        <label for="c">c</label>
+        <form:input path="c" class="form-control" id="c"/>
+      </div>
+      <button type="submit" class="btn btn-primary">calculate</button>
+    </form:form>
+</div>
 
 <div class="usedTechnology col-lg-12 col-md-12">
-<p><span>task:</br>
-    Create a form that calculate values ​​of coefficients equation of a * x<sup>2</sup> + b * y + c = 0.
-    The calculated values ​​lead to a new page and add to the database.
-    Use Spring 4.3 and java 1.7. If value can not be calculated - display a message with error.</span>
-</p>
-<p><span>used technology on this page:</span></br>
-    backend - java, Spring MVC</br>
-    frontend - Bootstrap</br>
-    PostgreSQL, Hibernate
-</p>
+    <p><span>task:</br>
+        Create a form that calculate values ​​of coefficients equation of a * x<sup>2</sup> + b * y + c = 0.
+        The calculated values ​​lead to a new page and add to the database.
+        Use Spring 4.3 and java 1.7. If value can not be calculated - display a message with error.</span>
+    </p>
+    <p><span>used technology on this page:</span></br>
+        backend - java, Spring MVC</br>
+        frontend - Bootstrap</br>
+        PostgreSQL, Hibernate
+    </p>
 </div>
 
 <jsp:include page="footer.jsp" />

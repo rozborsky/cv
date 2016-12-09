@@ -3,9 +3,9 @@ body{
 }
 
 .container{
-    height:100%;
     background: #F5F2E4;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    min-height: 100%;
 }
 
 td{
@@ -19,4 +19,13 @@ td{
 
 span{
     font-weight: bolder;
+}
+
+.center_div{
+    margin: 0 auto;
+    width:80%
+}
+
+.equation{
+    margin:auto;
 }

@@ -23,9 +23,14 @@ span{
 
 .center_div{
     margin: 0 auto;
-    width:80%
+    width: 80%
 }
 
 .equation{
     margin:auto;
+}
+
+.calculationPi{
+    color: red;
+    width: 80%
 }

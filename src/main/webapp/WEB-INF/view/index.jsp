@@ -13,7 +13,7 @@
            Live in Vinnitsa. Willing to relocate</p>
     </div>
     <div class="col-lg-3 col-md-4">
-        <img src="<c:url value="/resources/images/rozborsky.jpg" />" alt="avatar" style="width:200px;">
+        <img src="<c:url value="/resources/images/cv/rozborsky.jpg" />" alt="avatar" style="width:200px;">
     </div>
     <div class="col-lg-12 col-md-12">
         <p><span>Objective: Obtain a position java developer</span></p>

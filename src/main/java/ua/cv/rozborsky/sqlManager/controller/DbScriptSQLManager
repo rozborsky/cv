@@ -1,0 +1,8 @@
+CREATE TABLE public."table"
+(
+  id integer NOT NULL,
+  name text,
+  surname text,
+  phone text,
+  CONSTRAINT table_pkey PRIMARY KEY (id)
+)

@@ -17,18 +17,18 @@
             <a href="https://github.com/rozborsky/calculationPi.git">github</a>
         </h4>
 
-        <img src="<c:url value="/resources/images/calculationPi/start.jpg" />" alt="start" class="calculationPi">
+        <img src="<c:url value="/resources/images/calculationPi/start.jpg" />" alt="start" class="screenshot">
 
         <p>
             The result obtained without restrictions memory.
         </p>
-        <img src="<c:url value="/resources/images/calculationPi/normalFinish.jpg" />" alt="normal finish">
+        <img src="<c:url value="/resources/images/calculationPi/normalFinish.jpg" />" alt="normal finish" class="screenshot">
 
         <p>
             The result obtained with the release her 9MB of heap space.
         </p>
 
-        <img src="<c:url value="/resources/images/calculationPi/lowMemory.jpg" />" alt="finish with low memory">
+        <img src="<c:url value="/resources/images/calculationPi/lowMemory.jpg" />" alt="finish with low memory" class="screenshot">
     </div>
 
 

@@ -8,6 +8,15 @@
 <div class="col-md-10 col-md-offset-1">
     <h1 class="equation">a * x<sup>2</sup> + b * y + c = 0</h1>
 
+    <p>
+        Create a form that calculate values ​​of coefficients equation of a * x<sup>2</sup> + b * y + c = 0.
+        The calculated values ​​lead to a new page and add to the database.
+        Use Spring 4.3 and java 1.7. If value can not be calculated - display a message with error.
+    </p>
+
+    <h4>
+        <a href="https://github.com/rozborsky/equation.git" class="githubLink">github</a>
+    </h4>
     <form:form action="solveTheEquation" method="post" commandName="getValues" class="form-inline">
       <div class="form-group">
         <label for="a">a</label>
@@ -26,11 +35,7 @@
 </div>
 
 <div class="usedTechnology col-lg-12 col-md-12">
-    <p><span>task:</br>
-        Create a form that calculate values ​​of coefficients equation of a * x<sup>2</sup> + b * y + c = 0.
-        The calculated values ​​lead to a new page and add to the database.
-        Use Spring 4.3 and java 1.7. If value can not be calculated - display a message with error.</span>
-    </p>
+
     <p><span>used technology on this page:</span></br>
         backend - java, Spring MVC</br>
         frontend - Bootstrap</br>

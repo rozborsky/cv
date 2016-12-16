@@ -34,6 +34,16 @@ span{
     color: red;
     width: 80%
 }
+
 .screenshot{
     margin-bottom: 40px;
+}
+
+.list-group-item{
+    background: #F5F2E4;
+}
+
+h4{
+    line-height: 200%;
+    padding: 100px;
 }

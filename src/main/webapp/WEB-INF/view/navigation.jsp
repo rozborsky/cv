@@ -1,6 +1,7 @@
 <div class="collapse navbar-collapse">
     <ul class="nav navbar-nav">
-        <li><a href="/cv">cv</a></li>
+        <li><a href="aboutMe">about me</a></li>
+        <li><a href="cv">cv</a></li>
         <li><a href="equation">equation</a></li>
         <li><a href="calculationPi">calculationPi</a></li>
         <li><a href="sqlManager">sqlManager</a></li>

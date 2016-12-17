@@ -36,6 +36,12 @@ public class MainController {
         return "cv";
     }
 
+    @RequestMapping(value = "/projects", method = RequestMethod.GET)
+    public String projects() {
+
+        return "projects";
+    }
+
     @RequestMapping(value = "/downloadCV", method = RequestMethod.GET)
     public void downloadPDFResource(HttpServletResponse response){
 

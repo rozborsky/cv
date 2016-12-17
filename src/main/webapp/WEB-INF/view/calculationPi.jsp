@@ -2,6 +2,8 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <jsp:include page="header.jsp" />
+    <a href="projects">projects list</a>
+
     <div class="col-lg-12 col-md-12 header"><h1>Program for calculation &#960</h1></div>
 
     <div class="col-lg-12 col-md-4">

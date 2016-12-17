@@ -2,10 +2,7 @@
     <ul class="nav navbar-nav">
         <li><a href="aboutMe">about me</a></li>
         <li><a href="cv">cv</a></li>
-        <li><a href="equation">equation</a></li>
-        <li><a href="calculationPi">calculationPi</a></li>
-        <li><a href="sqlManager">sqlManager</a></li>
-        <li><a href="seaBattle">seaBattle</a></li>
+        <li><a href="projects">projects</a></li>
     </ul>
 </div>
 

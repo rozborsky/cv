@@ -3,6 +3,7 @@
 
 <jsp:include page="header.jsp" />
 <div class="col-lg-12 col-md-12 header">
+    <a href="projects">projects list</a>
     <h1>SQL manager</h1>
     <p>
         My first project. Using tools of java core, user connect to the database, insert, update, delete data.

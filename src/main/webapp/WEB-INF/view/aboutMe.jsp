@@ -15,10 +15,10 @@
         <ul class="list-group">
           <li class="list-group-item">096 58 57 006</li>
           <li class="list-group-item">roman.rozborsky@gmail.com</li>
-          <li class="list-group-item"><li><a href="downloadCV">downloadCV</a></li>
-
+          <li class="list-group-item"><a href="downloadCV">download CV</a></li>
         </ul>
     </div>
+
     <div class="col-lg-12 col-md-12 aboutMe">
         <h4>
             I study programming for 2 years. Graduated from Vinnitsa IT Academy, where I studied programing,

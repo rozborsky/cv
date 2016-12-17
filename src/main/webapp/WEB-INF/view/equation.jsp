@@ -4,6 +4,7 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 
 <jsp:include page="header.jsp" />
+<a href="projects">projects list</a>
 
 <div class="col-md-10 col-md-offset-1">
     <h1 class="equation">a * x<sup>2</sup> + b * y + c = 0</h1>

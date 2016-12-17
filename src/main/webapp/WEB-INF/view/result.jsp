@@ -3,7 +3,7 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 
 <jsp:include page="header.jsp" />
-
+<a href="projects">projects list</a>
 <a href="equation">back</a>
 <h1>${result}</h1>
 

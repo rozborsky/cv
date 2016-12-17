@@ -45,5 +45,13 @@ span{
 
 h4{
     line-height: 200%;
+}
+
+.aboutMe{
     padding: 100px;
+}
+
+.projects{
+    margin-left: 150px;
+    color: red;
 }

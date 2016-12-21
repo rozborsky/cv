@@ -56,7 +56,6 @@ public class LandingPageController {
         dao.addEmployee(employee.getName(), employee.getSecondName(), employee.geteMail(),
                 employee.getRemarks(), file.getOriginalFilename());
 
-
         //cvManager.saveImage(file, dirPath);
 
         sendLetter.setParameters("@gmail.com", "", "@gmail.com",

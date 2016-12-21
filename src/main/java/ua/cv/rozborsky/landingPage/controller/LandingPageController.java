@@ -57,7 +57,7 @@ public class LandingPageController {
                 employee.getRemarks(), file.getOriginalFilename());
 
 
-        cvManager.saveImage(file, dirPath);
+        //cvManager.saveImage(file, dirPath);
 
         sendLetter.setParameters("@gmail.com", "", "@gmail.com",
                 employee.getSecondName() + "_" + employee.getName());
@@ -66,7 +66,7 @@ public class LandingPageController {
         return "confirmationRegistration";
     }
 
-    public String getPathToCv() {
+    private String getPathToCv() {
         File file = new File("");
 
         return file.getAbsolutePath() + "\\cv\\";

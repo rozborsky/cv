@@ -52,7 +52,7 @@
             simple landing page for service loking job
         </td>
         <td>
-
+            <a href="https://github.com/rozborsky/landing.git" class="githubLink">github</a>
         </td>
     </tr>
     <tr>

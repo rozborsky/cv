@@ -35,7 +35,7 @@
     </tr>
     <tr>
         <td>
-            <a href="sql manager">sqlManager</a>
+            <a href="sqlManager">sqlManager</a>
         </td>
         <td>
             first project. Console programm for insert, update, delete, etc... values to table

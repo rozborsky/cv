@@ -14,6 +14,7 @@ import ua.cv.rozborsky.landingPage.classes.CvManager;
 import ua.cv.rozborsky.landingPage.classes.DAOPostgress;
 import ua.cv.rozborsky.landingPage.classes.EmployeeImpl;
 import ua.cv.rozborsky.landingPage.classes.SendLetter;
+import ua.cv.rozborsky.landingPage.exception.LandingException;
 
 
 import javax.validation.Valid;
@@ -53,14 +54,19 @@ public class LandingPageController {
         }
 
         dao.DAOPostgresss("jdbc:postgresql://localhost:5439/web", "postgres", "postgres");
-        dao.addEmployee(employee.getName(), employee.getSecondName(), employee.geteMail(),
-                employee.getRemarks(), file.getOriginalFilename());
 
-        //cvManager.saveImage(file, dirPath);
+        try{
+            dao.addEmployee(employee.getName(), employee.getSecondName(), employee.geteMail(),
+                    employee.getRemarks(), file.getOriginalFilename());
 
-        sendLetter.setParameters("@gmail.com", "", "@gmail.com",
-                employee.getSecondName() + "_" + employee.getName());
-        sendLetter.send(employee.getRemarks(), file.getOriginalFilename(), dirPath);
+            //cvManager.saveImage(file, dirPath);
+
+            sendLetter.setParameters("@gmail.com", "", "@gmail.com",
+                    employee.getSecondName() + "_" + employee.getName());
+            sendLetter.send(employee.getRemarks(), file.getOriginalFilename(), dirPath);
+        } catch (LandingException e) {
+            return "errorPage";
+        }
 
         return "confirmationRegistration";
     }

@@ -4,8 +4,9 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 
 <jsp:include page="header.jsp" />
-<a href="projects">projects list</a>
 
-<h1>You successfully registered</h1>
+<h1 class="startH1">Sorry, an error occurred</h1>
+<a href="landingPage">back</a>
 
 <jsp:include page="footer.jsp" />
+

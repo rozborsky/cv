@@ -55,7 +55,7 @@
     <p><span>used technology on this page:</span></br>
         backend - java, Spring MVC</br>
         frontend - Bootstrap</br>
-        PostgreSQL, Hibernate
+        PostgreSQL, SQL2O
     </p>
 </div>
 
